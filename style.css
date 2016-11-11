@@ -1,0 +1,14 @@
+.wpml-ls-svg-flags-with-titles {
+	display: table;
+}
+
+.wpml-ls-svg-flags-with-titles li {
+	list-style: none;
+	float: left;
+	margin: 0 3px;
+}
+
+.wpml-ls-svg-flags-with-titles img {
+	max-width: 32px;
+	height: auto;
+}

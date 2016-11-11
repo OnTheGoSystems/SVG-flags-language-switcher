@@ -1,0 +1,13 @@
+<div class="{{ css_classes }} wpml-ls-svg-flags-with-titles">
+	<ul>
+
+		{% for code, language in languages %}
+			<li class="{{ language.css_classes }}">
+				<a href="{{ language.url }}">
+					<img src="{{ language.flag_url }}" title="{{ language.display_name }} ({{ language.native_name }})">
+				</a>
+			</li>
+		{% endfor %}
+
+	</ul>
+</div>
